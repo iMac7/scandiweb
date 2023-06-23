@@ -1,0 +1,38 @@
+form {
+    /* border: 1px solid red; */
+    /* width: min(90vw, 500px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+fieldset {
+    border: none;
+    padding: .5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset > label {
+    font-weight: 700;
+    padding: .5em 1em;
+}
+
+.type {
+    flex-direction: column;
+}
+
+.furniture {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: .5em;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
